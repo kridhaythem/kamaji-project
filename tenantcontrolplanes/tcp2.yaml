@@ -9,7 +9,7 @@ spec:
     deployment:
       replicas: 2
     service:
-      serviceType: ClusterIP
+      serviceType: LoadBalancer
   kubernetes:
     version: "v1.33.0"
     kubelet:
