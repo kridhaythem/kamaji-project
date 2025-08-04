@@ -17,6 +17,7 @@ spec:
       cgroupfs: systemd
   networkProfile:
     port: 6443
+  dataStoreUsername: k8s-134k8s-134
   addons:
     coreDNS: {}
     kubeProxy: {}
