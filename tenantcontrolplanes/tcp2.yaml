@@ -2,7 +2,6 @@ apiVersion: kamaji.clastix.io/v1alpha1
 kind: TenantControlPlane
 metadata:
   name: k8s-134
-  namespace: k8s-134
   labels:
     tenant.clastix.io: k8s-134
 spec:
@@ -17,7 +16,8 @@ spec:
       cgroupfs: systemd
   networkProfile:
     port: 6443
-  dataStoreUsername: k8s-134k8s-134
+  dataStoreUsername: defaultk8s-134
+  dataStore: default 
   addons:
     coreDNS: {}
     kubeProxy: {}
