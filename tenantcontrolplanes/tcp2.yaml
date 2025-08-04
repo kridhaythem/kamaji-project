@@ -18,7 +18,6 @@ spec:
   networkProfile:
     port: 6443
   #dataStoreUsername: defaultk8s-134
-  dataStore: k8s-134
   addons:
     coreDNS: {}
     kubeProxy: {}
