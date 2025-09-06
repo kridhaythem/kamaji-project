@@ -2,3 +2,5 @@ resources:
   - kamaji_v1alpha1_tenantcontrolplane.yaml
   - tcp2.yaml
   - tenants-namespaces.yaml	
+  - k8s-133-ingress.yaml
+  - k8s-134-ingress.yaml
